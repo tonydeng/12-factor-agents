@@ -1,1 +1,8 @@
 .promptx
+
+# mdBook build output
+book/
+
+# mdBook temporary files
+*.mdbook-lock
+

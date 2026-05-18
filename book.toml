@@ -1,0 +1,24 @@
+[book]
+title = "12 Factor Agents - 中文版"
+authors = ["Tony Deng"]
+language = "zh"
+src = "."
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+additional-css = []
+additional-js = []
+git-repository-url = "https://github.com/tonydeng/12-factor-agents"
+edit-url-template = "https://github.com/tonydeng/12-factor-agents/edit/main/{path}"
+site-url = "/"
+no-section-label = false
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+# [preprocessor.katex]
+# command = "mdbook-katex"
+# renderers = ["html"]
