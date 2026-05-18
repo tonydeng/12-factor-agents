@@ -1,16 +1,16 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md)
+[← 返回 README](../README-zh.md)
 
 ### 8. 掌控你的控制流
 
 如果你掌控了你的控制流，你可以做很多有趣的事情。
 
-![180-control-flow](https://github.com/humanlayer/12-factor-agents/blob/main/img/180-control-flow.png)
+![180-control-flow](../img/180-control-flow.png)
 
 构建你自己的控制结构，使其适合你的特定用例。具体来说，某些类型的工具调用可能是跳出循环并等待人类或另一个长时间运行任务（如训练管道）响应的理由。你可能还想加入以下自定义实现：
 
 - 工具调用结果的摘要或缓存
 - 结构化输出的LLM评判
-- 上下文窗口压缩或其他[内存管理](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md)
+- 上下文窗口压缩或其他[内存管理](./factor-03-own-your-context-window-zh.md)
 - 日志、追踪和指标
 - 客户端速率限制
 - 持久睡眠/暂停/"等待事件"
@@ -75,6 +75,6 @@ def handle_next_step(thread: Thread):
 2. 将智能体限制为仅低风险、低风险的调用，如研究和摘要
 3. 给智能体访问更大、更有用的东西，然后yolo希望它不会搞砸
 
-你可能会注意到这与[第5条原则 - 统一执行状态和业务状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state.md)和[第6条原则 - 使用简单API进行启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume.md)密切相关，但可以独立实现。
+你可能会注意到这与[第5条原则 - 统一执行状态和业务状态](./factor-05-unify-execution-state-zh.md)和[第6条原则 - 使用简单API进行启动/暂停/恢复](./factor-06-launch-pause-resume-zh.md)密切相关，但可以独立实现。
 
-[← 通过工具联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md) | [压缩错误 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors.md)
+[← 通过工具联系人类](./factor-07-contact-humans-with-tools-zh.md) | [压缩错误 →](./factor-09-compact-errors-zh.md)

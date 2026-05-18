@@ -5,7 +5,7 @@
 直到收到人工响应。
 
 这显然不太理想，特别是对于生产工作负载，
-所以在本节中我们将通过更新服务器来实现[第六要素 - 使用简单 API 启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-6-launch-pause-resume-zh.md)，
+所以在本节中我们将通过更新服务器来实现[第六要素 - 使用简单 API 启动/暂停/恢复](../../../content/factor-6-launch-pause-resume-zh.md)，
 在联系人工后结束处理，并使用 webhook 接收结果。
 
 

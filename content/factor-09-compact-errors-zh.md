@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README.md)
+[← 返回 README](../README.md)
 
 ### 9. 将错误压缩到上下文窗口中
 
@@ -58,7 +58,7 @@ while True:
 }
 ```
 
-达到某个连续错误阈值可能是一个很好的[升级给人工](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools-zh.md)的时机，无论是通过模型决策还是通过确定性接管控制流。
+达到某个连续错误阈值可能是一个很好的[升级给人工](./factor-07-contact-humans-with-tools-zh.md)的时机，无论是通过模型决策还是通过确定性接管控制流。
 
 [![195-factor-09-errors](https://github.com/humanlayer/12-factor-agents/blob/main/img/195-factor-09-errors.gif)](https://github.com/user-attachments/assets/cd7ed814-8309-4baf-81a5-9502f91d4043)
 
@@ -77,8 +77,8 @@ while True:
 
 我敢肯定你会发现，如果你这样做太多次，你的智能体就会开始失控并可能一次又一次地重复相同的错误。
 
-这正是[因素8 - 掌控你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md)和[因素3 - 掌控你的上下文构建](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md)的用武之地——你不需要只是把原始错误放回去，你可以完全重构它的表示方式，从上下文窗口中删除之前的事件，或者执行任何你发现有效的确定性操作来让智能体重新走上正轨。
+这正是[因素8 - 掌控你的控制流](./factor-08-own-your-control-flow-zh.md)和[因素3 - 掌控你的上下文构建](./factor-03-own-your-context-window-zh.md)的用武之地——你不需要只是把原始错误放回去，你可以完全重构它的表示方式，从上下文窗口中删除之前的事件，或者执行任何你发现有效的确定性操作来让智能体重新走上正轨。
 
-但防止错误失控的首要方法是采用[因素10 - 小而专注的智能体](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents-zh.md)。
+但防止错误失控的首要方法是采用[因素10 - 小而专注的智能体](./factor-10-small-focused-agents-zh.md)。
 
-[← 掌控你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md) | [小而专注的智能体 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents-zh.md)
+[← 掌控你的控制流](./factor-08-own-your-control-flow-zh.md) | [小而专注的智能体 →](./factor-10-small-focused-agents-zh.md)

@@ -324,7 +324,7 @@ BAML 代码配置为默认使用 OPENAI_API_KEY
 
 在本节中，我们将探索如何自定义具有推理步骤的智能体提示词。
 
-这是[第二要素 - 掌控你的提示词](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-2-own-your-prompts.md)的核心内容。
+这是[第二要素 - 掌控你的提示词](../../content/factor-2-own-your-prompts.md)的核心内容。
 
 关于推理的深入探讨，请参阅 AI That Works 上的文章[推理模型与推理步骤](https://github.com/hellovai/ai-that-works/tree/main/2025-04-07-reasoning-models-vs-prompts)。
 
@@ -359,7 +359,7 @@ BAML 代码配置为默认使用 OPENAI_API_KEY
 
 在本节中，我们将探索如何自定义智能体的上下文窗口。
 
-这是[第三要素 - 掌控你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-3-own-your-context-window.md)的核心内容。
+这是[第三要素 - 掌控你的上下文窗口](../../../../content/factor-3-own-your-context-window-zh.md)的核心内容。
 
 
 更新智能体以美化模型的上下文窗口输出
@@ -584,7 +584,7 @@ BAML 代码配置为默认使用 OPENAI_API_KEY
 和 `request_more_information` 的审批将通过邮件处理，
 然后最终的 `done_for_now` 答案将打印回 CLI
 
-虽然有些刻意，但这很好地展示了[第七要素 - 使用工具联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools.md)的灵活性。
+虽然有些刻意，但这很好地展示了[第七要素 - 使用工具联系人类](../../../../content/factor-7-contact-humans-with-tools-zh.md)的灵活性。
 
 
 在本节中，我们将禁用 baml 日志。如果你想查看更多详细信息，可以选择启用它们。
@@ -610,14 +610,14 @@ HumanLayer: Requested human approval from HumanLayer cloud
 
 继续回复邮件并提供一些反馈：
 
-![reject-email](https://github.com/humanlayer/12-factor-agents/blob/main/workshops/2025-05/walkthrough/11-email-reject.png?raw=true)
+![reject-email](../walkthrough/11-email-reject.png?raw=true)
 
 
 你应该会收到另一封邮件，其中包含基于你反馈的更新尝试！
 
 你可以批准这一个：
 
-![approve-email](https://github.com/humanlayer/12-factor-agents/blob/main/workshops/2025-05/walkthrough/11-email-approve.png?raw=true)
+![approve-email](../walkthrough/11-email-approve.png?raw=true)
 
 
 你的最终输出应该类似于
@@ -684,7 +684,7 @@ The division of 4 by 5 is 0.8. If you have any other calculations or questions, 
 直到收到人工响应。
 
 这显然不太理想，特别是对于生产工作负载，
-所以在本节中我们将通过更新服务器来实现[第六要素 - 使用简单 API 启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-6-launch-pause-resume-zh.md)，
+所以在本节中我们将通过更新服务器来实现[第六要素 - 使用简单 API 启动/暂停/恢复](../../content/factor-6-launch-pause-resume-zh.md)，
 在联系人工后结束处理，并使用 webhook 接收结果。
 
 

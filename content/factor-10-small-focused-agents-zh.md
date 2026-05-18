@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md)
+[← 返回 README](../README-zh.md)
 
 ### 10. 小而专注的智能体
 
@@ -38,4 +38,4 @@
 
 无论那个边界在哪里，如果你能找到那个边界并持续正确地把握它，你就能构建出神奇的体验。这里有很多护城河可以建立，但一如既往，它们需要一些工程严谨性。
 
-[← 压缩错误](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors-zh.md) | [从任何地方触发 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-11-trigger-from-anywhere-zh.md)
+[← 压缩错误](./factor-09-compact-errors-zh.md) | [从任何地方触发 →](./factor-11-trigger-from-anywhere-zh.md)

@@ -2,7 +2,7 @@
 
 在本节中，我们将探索如何自定义智能体的上下文窗口。
 
-这是[第三要素 - 掌控你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-3-own-your-context-window-zh.md)的核心内容。
+这是[第三要素 - 掌控你的上下文窗口](../../../content/factor-3-own-your-context-window-zh.md)的核心内容。
 
 
 更新智能体以美化模型的上下文窗口输出

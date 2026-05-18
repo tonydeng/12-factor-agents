@@ -8,7 +8,7 @@
 和 `request_more_information` 的审批将通过邮件处理，
 然后最终的 `done_for_now` 答案将打印回 CLI
 
-虽然有些刻意，但这很好地展示了[第七要素 - 使用工具联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools-zh.md)的灵活性。
+虽然有些刻意，但这很好地展示了[第七要素 - 使用工具联系人类](../../../content/factor-7-contact-humans-with-tools-zh.md)的灵活性。
 
 
 在本节中，我们将禁用 baml 日志。如果你想查看更多详细信息，可以选择启用它们。
@@ -141,7 +141,7 @@ HumanLayer: Requested human approval from HumanLayer cloud
 
 继续回复邮件并提供一些反馈：
 
-![reject-email](https://github.com/humanlayer/12-factor-agents/blob/main/workshops/2025-05/walkthrough/11-email-reject.png?raw=true)
+![reject-email](../walkthrough/11-email-reject.png?raw=true)
 
 
 你应该会收到另一封邮件，其中包含基于你反馈的更新尝试！

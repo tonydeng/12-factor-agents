@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md)
+[← 返回 README](../README-zh.md)
 
 ### 6. 使用简单API进行启动/暂停/恢复
 
@@ -19,8 +19,8 @@
 
 像webhook这样的外部触发器应该能够使智能体从中断的地方恢复，而无需与智能体编排器深度集成。
 
-这与[第5条原则 - 统一执行状态和业务状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state-zh.md)和[第8条原则 - 掌控你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md)密切相关，但可以独立实现。
+这与[第5条原则 - 统一执行状态和业务状态](./factor-05-unify-execution-state-zh.md)和[第8条原则 - 掌控你的控制流](./factor-08-own-your-control-flow-zh.md)密切相关，但可以独立实现。
 
-**注意**——通常AI编排器会允许暂停和恢复，但在工具选择和工具执行之间无法进行。见[第7条原则 - 通过工具调用联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools-zh.md)和[第11条原则 - 从任何地方触发，在用户所在的地方相遇](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-11-trigger-from-anywhere-zh.md)。
+**注意**——通常AI编排器会允许暂停和恢复，但在工具选择和工具执行之间无法进行。见[第7条原则 - 通过工具调用联系人类](./factor-07-contact-humans-with-tools-zh.md)和[第11条原则 - 从任何地方触发，在用户所在的地方相遇](./factor-11-trigger-from-anywhere-zh.md)。
 
-[← 统一执行状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state-zh.md) | [通过工具联系人类 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools-zh.md)
+[← 统一执行状态](./factor-05-unify-execution-state-zh.md) | [通过工具联系人类 →](./factor-07-contact-humans-with-tools-zh.md)

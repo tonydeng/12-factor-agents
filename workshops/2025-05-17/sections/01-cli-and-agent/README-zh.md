@@ -2,7 +2,7 @@
 
 现在让我们添加 BAML 并创建我们的第一个带有 CLI 接口的 agent。
 
-首先，我们需要安装 [BAML](https://github.com/boundaryml/baml)，
+首先，我们需要安装 [BAML](https://github.com/boundaryml/baml)，这是一个用于提示和结构化输出的工具。
 这是一个用于提示和结构化输出的工具。
 
 

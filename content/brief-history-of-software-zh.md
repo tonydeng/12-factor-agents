@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README.md)
+[← 返回 README](./README-zh.md)
 
 ## 完整版本：我们是如何走到这里的
 
@@ -14,7 +14,7 @@
 
 我们会经常讨论有向图（DGs）及其无环的朋友——DAGs。我首先要指出的是……软件本质上就是一个有向图。我们过去用流程图来表示程序是有原因的。
 
-![010-software-dag](https://github.com/humanlayer/12-factor-agents/blob/main/img/010-software-dag.png)
+![010-software-dag](../img/010-software-dag.png)
 
 ### 20 年前
 
@@ -34,7 +34,7 @@
 
 我不是第一个[这样说的人](https://youtu.be/Dc99-zTMyMg?si=bcT0hIwWij2mR-40&t=73)，但当我开始了解 Agent 时，我最大的收获是——你可以把 DAG 扔掉了。不再需要软件工程师编码每个步骤和边界情况，你可以给 Agent 一个目标和一组转换：
 
-![025-agent-dag](https://github.com/humanlayer/12-factor-agents/blob/main/img/025-agent-dag.png)
+![025-agent-dag](../img/025-agent-dag.png)
 
 然后让 LLM 实时做出决策，找出路径
 
@@ -115,7 +115,7 @@ while True:
 
 下面是一个确定性代码如何运行一个负责处理部署中人工介入步骤的微型 Agent 的示例。
 
-![029-deploybot-high-level](https://github.com/humanlayer/12-factor-agents/blob/main/img/029-deploybot-high-level.png)
+![029-deploybot-high-level](../img/029-deploybot-high-level.png)
 
 * **人工** 将 PR 合并到 GitHub main 分支
 * **确定性代码** 部署到 staging 环境
@@ -155,10 +155,10 @@ while True:
 
 ### 那么 Agent 到底是什么？
 
-- **提示词（prompt）** - 告诉 LLM 如何行为，以及它有哪些可用的"工具"。提示词的输出是一个 JSON 对象，描述工作流中的下一个步骤（"工具调用"或"函数调用"）。([因素 2](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts-zh.md))
-- **switch 语句** - 根据 LLM 返回的 JSON，决定如何处理它。（属于[因素 8](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md)）
-- **累积上下文** - 存储已发生的步骤列表及其结果([因素 3](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md))
-- **for 循环** - 直到 LLM 发出某种"终端"工具调用（或纯文本响应），将 switch 语句的结果添加到上下文窗口，并让 LLM 选择下一步。([因素 8](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md))
+- **提示词（prompt）** - 告诉 LLM 如何行为，以及它有哪些可用的"工具"。提示词的输出是一个 JSON 对象，描述工作流中的下一个步骤（"工具调用"或"函数调用"）。([因素 2](./factor-02-own-your-prompts-zh.md))
+- **switch 语句** - 根据 LLM 返回的 JSON，决定如何处理它。（属于[因素 8](./factor-08-own-your-control-flow-zh.md)）
+- **累积上下文** - 存储已发生的步骤列表及其结果([因素 3](./factor-03-own-your-context-window-zh.md))
+- **for 循环** - 直到 LLM 发出某种"终端"工具调用（或纯文本响应），将 switch 语句的结果添加到上下文窗口，并让 LLM 选择下一步。([因素 8](./factor-08-own-your-control-flow-zh.md))
 
 ![040-4-components](https://github.com/humanlayer/12-factor-agents/blob/main/img/040-4-components.png)
 
@@ -168,6 +168,6 @@ while True:
 - 我们可以轻松地序列化 **上下文** 窗口以实现暂停+恢复
 - 在我们的 **提示词** 中，我们可以优化如何向 LLM 传递指令和"到目前为止发生了什么"
 
-[第二部分](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md#12-factor-agents)将**正式化这些模式**，以便它们可以应用于为任何软件项目添加令人印象深刻的 AI 功能，而无需完全投入传统的"AI Agent"实现/定义。
+[第二部分](../README-zh.md#12-factor-agents)将**正式化这些模式**，以便它们可以应用于为任何软件项目添加令人印象深刻的 AI 功能，而无需完全投入传统的"AI Agent"实现/定义。
 
-[因素 1 - 自然语言转工具调用 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls-zh.md)
+[因素 1 - 自然语言转工具调用 →](./factor-01-natural-language-to-tool-calls-zh.md)

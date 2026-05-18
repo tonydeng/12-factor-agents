@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md)
+[← 返回 README](../README-zh.md)
 
 ### 4. 工具只是结构化输出
 
@@ -47,6 +47,6 @@ else: #... 模型调用了我们不知道的工具
 
 **注意**：关于"纯提示"vs"工具调用"vs"JSON模式"的好处已经有很多讨论，以及每个的性能权衡。我们很快会链接一些相关资源，但在这里不会深入讨论。参见[Prompting vs JSON Mode vs Function Calling vs Constrained Generation vs SAP](https://www.boundaryml.com/blog/schema-aligned-parsing)、[何时应该使用函数调用、结构化输出或JSON模式？](https://www.vellum.ai/blog/when-should-i-use-function-calling-structured-outputs-or-json-mode#:~:text=We%20don%27t%20recommend%20using%20JSON,always%20use%20Structured%20Outputs%20instead)和[OpenAI JSON vs函数调用](https://docs.llamaindex.ai/en/stable/examples/llm/openai_json_vs_function_calling/)。
 
-"下一步"可能不像"运行一个纯函数并返回结果"那么简单。当你把"工具调用"想象成模型输出描述确定性代码应该做什么的JSON时，你解锁了很多灵活性。将这个与[因素8掌控你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow-zh.md)结合起来。
+"下一步"可能不像"运行一个纯函数并返回结果"那么简单。当你把"工具调用"想象成模型输出描述确定性代码应该做什么的JSON时，你解锁了很多灵活性。将这个与[因素8掌控你的控制流](./factor-08-own-your-control-flow-zh.md)结合起来。
 
-[← 掌控你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md) | [统一执行状态 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state-zh.md)
+[← 掌控你的上下文窗口](./factor-03-own-your-context-window-zh.md) | [统一执行状态 →](./factor-05-unify-execution-state-zh.md)

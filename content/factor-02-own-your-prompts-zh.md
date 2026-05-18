@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md)
+[← 返回 README](../README-zh.md)
 
 ### 2. 掌控你的提示词
 
@@ -68,7 +68,7 @@ function DetermineNextStep(thread: string) -> DoneForNow | ListGitTags | DeployB
 
 （上面的例子使用[BAML](https://github.com/boundaryml/baml)来生成提示词，但你可以用任何你想要的提示词工程工具来做这件事，甚至可以手动模板化）
 
-如果签名看起来有点奇怪，我们将在[因素4 - 工具只是结构化输出](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md)中讨论。
+如果签名看起来有点奇怪，我们将在[因素4 - 工具只是结构化输出](./factor-04-tools-are-structured-outputs-zh.md)中讨论。
 
 ```typescript
 function DetermineNextStep(thread: string) -> DoneForNow | ListGitTags | DeployBackend | DeployFrontend | RequestMoreInformation {
@@ -88,4 +88,4 @@ function DetermineNextStep(thread: string) -> DoneForNow | ListGitTags | DeployB
 
 我不知道什么是最好的提示词，但我知道你希望有灵活性能够尝试一切。
 
-[← 自然语言到工具调用](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls-zh.md) | [掌控你的上下文窗口 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md)
+[← 自然语言到工具调用](./factor-01-natural-language-to-tool-calls-zh.md) | [掌控你的上下文窗口 →](./factor-03-own-your-context-window-zh.md)

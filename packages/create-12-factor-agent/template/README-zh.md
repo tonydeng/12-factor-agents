@@ -350,7 +350,7 @@ agent上下文窗口的中间恢复
 
 在本节中，我们将探索如何使用推理步骤自定义agent的提示词。
 
-这是[factor 2 - 拥有你的提示词](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-2-own-your-prompts.md)的核心
+这是[factor 2 - 拥有你的提示词](../../../content/factor-2-own-your-prompts-zh.md)的核心
 
 关于推理有一个深入探讨在AI That Works [推理模型与推理步骤](https://github.com/hellovai/ai-that-works/tree/main/2025-04-07-reasoning-models-vs-prompts)
 
@@ -385,7 +385,7 @@ agent上下文窗口的中间恢复
 
 在本节中，我们将探索如何自定义agent的上下文窗口。
 
-这是[factor 3 - 拥有你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-3-own-your-context-window-zh.md)的核心
+这是[factor 3 - 拥有你的上下文窗口](../../../content/factor-3-own-your-context-window-zh.md)的核心
 
 
 更新agent以美化为模型格式化上下文窗口
@@ -610,7 +610,7 @@ agent跟踪，以类似这样的消息结尾：
 和`request_more_information`的审批将通过电子邮件处理，
 然后最终的`done_for_now`答案将打印回CLI
 
-虽然有点人为，但这是一个很好的例子，展示了[factor 7 - 用工具联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools.md)的灵活性带来的灵活性
+虽然有点人为，但这是一个很好的例子，展示了[第七要素 - 用工具联系人类](../../content/factor-7-contact-humans-with-tools.md)的灵活性带来的灵活性
 
 
 对于本节，我们将禁用baml日志。如果您想查看更多细节，可以选择启用它们。
@@ -709,7 +709,7 @@ agent跟踪，以类似这样的消息结尾：
 轮询直到收到人类响应。
 
 这显然不理想，特别是对于生产工作负载，
-所以在本节中，我们将通过更新服务器以在联系人类后结束处理，并使用webhooks接收结果来实现[factor 6 - 使用简单API启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-6-launch-pause-resume-zh.md)。
+所以在本节中，我们将通过更新服务器以在联系人类后结束处理，并使用webhooks接收结果来实现[factor 6 - 使用简单API启动/暂停/恢复](../../../content/factor-6-launch-pause-resume-zh.md)。
 
 
 添加代码以在服务器中初始化humanlayer

@@ -146,6 +146,6 @@ while True:
 
 > #### 如果你已经知道模型会调用哪些工具，就直接确定性地调用它们，让模型去做那部分困难的工作——搞清楚如何使用这些输出
 
-再次强调，AI 工程的核心就是[上下文工程](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window-zh.md)。
+再次强调，AI 工程的核心就是[上下文工程](./factor-03-own-your-context-window-zh.md)。
 
-[← 无状态 Reducer](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-12-stateless-reducer-zh.md) | [延伸阅读 →](https://github.com/humanlayer/12-factor-agents/blob/main/README-zh.md#related-resources)
+[← 无状态 Reducer](./factor-12-stateless-reducer-zh.md) | [延伸阅读 →](../README-zh.md#related-resources)
