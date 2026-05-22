@@ -1,1 +1,11 @@
 .promptx
+
+# mdBook build output
+book/
+_book/
+
+# mdBook temporary files
+*.mdbook-lock
+
+# trae files
+.trae/
