@@ -5,7 +5,7 @@ language = "zh"
 src = "."
 
 [build]
-build-dir = "book"
+build-dir = "_book"
 create-missing = false
 
 [output.html]
